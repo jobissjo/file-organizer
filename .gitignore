@@ -1,0 +1,29 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment (if kept inside project)
+.venv/
+
+# Distribution / build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Poetry lock file can be committed (recommended), but ignore backups
+poetry.lock.*
+*.lock~
+
+# Logs / OS files
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE configs (optional, depending on your team)
+.vscode/
+.idea/
+*.iml
